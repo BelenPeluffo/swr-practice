@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "johndoe",
+      "name": "John Doe",
+      "email": "rjwZ2@example.com",
+      "password": "password123"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "First Post",
+      "content": "This is the first post.",
+      "userId": 1
+    },
+    {
+      "id": "2",
+      "title": "Second Post",
+      "content": "This is the second post.",
+      "userId": 1
+    },
+    {
+      "id": "2c60",
+      "title": "Third Post",
+      "content": "Yeah Yeah",
+      "userId": 2
+    },
+    {
+      "id": "51d0",
+      "title": "Fourth Post",
+      "content": "Haha",
+      "userId": 2
+    },
+    {
+      "id": "af9f",
+      "title": "lol",
+      "content": "e?",
+      "userId": 1
+    },
+    {
+      "id": "13a7",
+      "title": "yas",
+      "content": "e?",
+      "userId": 1
+    },
+    {
+      "id": "6177",
+      "title": "khe",
+      "content": "e?",
+      "userId": 1
+    }
+  ]
+}
