@@ -6,6 +6,13 @@
       "name": "John Doe",
       "email": "rjwZ2@example.com",
       "password": "password123"
+    },
+    {
+      "id": "2",
+      "username": "belenpeluffo",
+      "name": "Belén Peluffo",
+      "email": "rjwZ2@example.com",
+      "password": "password123"
     }
   ],
   "posts": [
@@ -50,6 +57,102 @@
       "title": "khe",
       "content": "e?",
       "userId": 1
+    },
+    {
+      "id": "0640",
+      "title": "Taeyeon",
+      "content": "what",
+      "userId": 1
+    },
+    {
+      "id": "e6d7",
+      "title": "kim",
+      "content": "nao",
+      "userId": 1
+    },
+    {
+      "id": "4fee",
+      "title": "e",
+      "content": "e",
+      "userId": 1
+    },
+    {
+      "id": "1023",
+      "title": "no",
+      "content": "e",
+      "userId": 1
+    },
+    {
+      "id": "dd9a",
+      "title": "yas",
+      "content": "e",
+      "userId": 1
+    },
+    {
+      "id": "9377",
+      "title": "what",
+      "content": "e",
+      "userId": 1
+    },
+    {
+      "id": "e998",
+      "title": "else",
+      "content": "e",
+      "userId": 1
+    },
+    {
+      "id": "92d5",
+      "title": "revail",
+      "content": "e",
+      "userId": 1
+    },
+    {
+      "id": "aaef",
+      "title": "yas",
+      "content": "no",
+      "userId": 1
+    },
+    {
+      "id": "af53",
+      "title": "yea?",
+      "content": "no",
+      "userId": 1
+    },
+    {
+      "id": "a990",
+      "title": "Dejitaru",
+      "content": "Monsuta",
+      "userId": 1
+    },
+    {
+      "id": "40d0",
+      "title": "Taeyeon",
+      "content": "Kim",
+      "userId": 2
+    },
+    {
+      "id": "cadd",
+      "title": "Kibun",
+      "content": "Kim",
+      "userId": 2
+    },
+    {
+      "id": "b746",
+      "title": "Kibun",
+      "content": "no",
+      "userId": 1
+    },
+    {
+      "id": "9083",
+      "title": "Black",
+      "content": "Pink",
+      "userId": 1
+    },
+    {
+      "id": "84c4",
+      "title": "Lisa",
+      "content": "Manobal",
+      "userId": 2
     }
   ]
 }

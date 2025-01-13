@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { Suspense, useContext, useState } from "react";
 import { usePost } from "../services/queries";
 import { Post } from "../types/Post";
 import { useCreatePost } from "../services/mutations";
@@ -6,7 +6,7 @@ import { AppContext, AppState } from "../context/AppContext";
 
 const Posts = () => {
   const { user } = useContext(AppContext) as AppState;
-  const { data: posts, isValidating } = usePost(user?.id);
+  const { data: posts, isValidating } = usePost();
   const { trigger, isMutating } = useCreatePost();
   const [post, setPost] = useState<Partial<Post> | null>(null);
 
@@ -27,6 +27,13 @@ const Posts = () => {
   return (
     <div>
       <h5>Posts</h5>
+      {/* <Suspense fallback={<div>Loading...</div>}>
+        <ul>
+          {posts?.map((post) => (
+            <li key={post.id}>{post.title}</li>
+          ))}
+        </ul>
+      </Suspense> */}
       <ul>
         {posts?.map((post) => (
           <li key={post.id}>{post.title}</li>

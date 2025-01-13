@@ -12,6 +12,8 @@ import { createPost } from "./updates";
 export function useCreatePost() {
   const { mutate } = usePost();
   return useSWRMutation("posts", createPost, {
-    onSuccess: () => mutate(),
+    onSuccess: () => {
+      mutate();
+    },
   });
 }
