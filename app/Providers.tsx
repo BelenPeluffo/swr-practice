@@ -1,6 +1,6 @@
 "use client";
 import { SWRConfig } from "swr";
-import fetcher from "./services/fetcher";
+import fetcher from "./modules/code-genix-practice/services/fetcher";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (

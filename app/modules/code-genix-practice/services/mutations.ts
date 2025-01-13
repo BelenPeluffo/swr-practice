@@ -10,6 +10,9 @@ import { createPost } from "./updates";
  */
 
 export function useCreatePost() {
+  // Ésta sería la lógica CLAVE para lograr que luego
+  // de actualizar la información se realice el refresh
+  // de los datos del GET:
   const { mutate } = usePost();
   return useSWRMutation("posts", createPost, {
     onSuccess: () => {
