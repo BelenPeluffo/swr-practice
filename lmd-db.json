@@ -1,0 +1,92 @@
+{
+  "level-data": [
+    {
+      "id": 1,
+      "levels": [
+        {
+          "id": 1,
+          "description": "1er año"
+        },
+        {
+          "id": 2,
+          "description": "2do año"
+        }
+      ],
+      "currentSchoolYear": 2023
+    }
+  ],
+  "curricular-data": [
+    {
+      "id": 1,
+      "level": {
+        "id": 1,
+        "description": "1er año"
+      },
+      "subjects": [
+        {
+          "id": 1,
+          "name": "Matemática",
+          "calificationNote": 0,
+          "condition": 1,
+          "month": 8,
+          "year": 1,
+          "establishment": "CIEU"
+        },
+        {
+          "id": 2,
+          "name": "Português",
+          "calificationNote": 0,
+          "condition": 1,
+          "month": 8,
+          "year": 1,
+          "establishment": "CIEU"
+        },
+        {
+          "id": 3,
+          "name": "Inglês",
+          "calificationNote": 0,
+          "condition": 1,
+          "month": 8,
+          "year": 1,
+          "establishment": "CIEU"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "level": {
+        "id": 2,
+        "description": "2do año"
+      },
+      "subjects": [
+        {
+          "id": 4,
+          "name": "Lengua y Literatura",
+          "calificationNote": 0,
+          "condition": 1,
+          "month": 8,
+          "year": 2,
+          "establishment": "CIEU"
+        },
+        {
+          "id": 5,
+          "name": "Lenguajes Artísticos",
+          "calificationNote": 0,
+          "condition": 1,
+          "month": 8,
+          "year": 2,
+          "establishment": "CIEU"
+        },
+        {
+          "id": 6,
+          "name": "Coreano",
+          "calificationNote": 0,
+          "condition": 1,
+          "month": 8,
+          "year": 2,
+          "establishment": "CIEU"
+        }
+      ]
+    }
+  ]
+}
